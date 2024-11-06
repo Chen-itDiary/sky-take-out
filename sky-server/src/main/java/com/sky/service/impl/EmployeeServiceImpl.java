@@ -70,7 +70,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Override
     public void save(EmployeeDTO employeeDTO) {
         Employee employee = new Employee();
-
+        //属性拷贝
         //对象属性拷贝(前提是属性名要一致)
         BeanUtils.copyProperties(employeeDTO,employee);
 
