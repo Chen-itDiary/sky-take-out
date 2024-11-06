@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "sky.jwt")
 @Data
 public class JwtProperties {
-
     /**
      * 管理端员工生成jwt令牌相关配置
      */
