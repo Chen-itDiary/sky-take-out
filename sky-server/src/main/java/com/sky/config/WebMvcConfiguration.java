@@ -41,6 +41,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
      * @return
      */
     @Bean
+
     public Docket docket() {
         log.info("准备生成接口文档");
         ApiInfo apiInfo = new ApiInfoBuilder()
