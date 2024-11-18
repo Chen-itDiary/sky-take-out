@@ -21,6 +21,7 @@ public interface DishMapper {
 
 
 
+
     /*
     * 插入菜品数据
     * @param dish

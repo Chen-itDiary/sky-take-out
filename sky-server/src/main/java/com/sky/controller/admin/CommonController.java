@@ -29,6 +29,7 @@ public class CommonController {
     * @param file
     * @return
     * */
+
     @PostMapping("/upload")
     @ApiOperation("文件上传")
     public Result<String> upload(MultipartFile file){//参数名保持与前端传过来的一致

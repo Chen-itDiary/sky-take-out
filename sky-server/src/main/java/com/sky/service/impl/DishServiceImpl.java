@@ -49,6 +49,7 @@ public class DishServiceImpl implements DishService {
                 dishFlavor.setDishId(id);//先将菜品的id传入到每个flavor的dishId属性中
             });
             dishFlavorMapper.insertBatch(flavors);
+
         }
 
     }
