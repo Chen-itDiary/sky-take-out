@@ -60,6 +60,7 @@ public interface DishMapper {
     void deleteById(Long id);
 
 
+
     /*
     * 根据菜品id集合批量删除菜品
     * @param ids

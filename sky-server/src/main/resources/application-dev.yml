@@ -8,8 +8,4 @@ sky:
     password: 1234
 
 
-  alioss:
-    endpoint:
-    access-key-id:
-    access-key-secret:
-    bucket-name:
+
